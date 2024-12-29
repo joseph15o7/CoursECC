@@ -172,4 +172,4 @@ class UsersResource(Resource):
         users = find_all_users()
         return users
 
-    return user_model
+
