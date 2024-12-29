@@ -23,7 +23,7 @@ signup_model = auth_ns.model(
         "password": fields.String()
     }
 )
-if not user_to_update:
+
 login_model = auth_ns.model(
     'Login',
     {
