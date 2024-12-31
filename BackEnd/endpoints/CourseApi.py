@@ -150,5 +150,5 @@ class CourseImageResource(Resource):
         except Exception as e:
             print(f"Couldn't upload file {e}")
             d['status'] = 0
-        except Exception as e:
+
         return jsonify(d)
