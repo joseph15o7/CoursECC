@@ -24,7 +24,7 @@ category_model_request = category_ns.model(
         "name": fields.String(required=True),
         "image": fields.String(),
         "courses": fields.List(fields.Nested(courses_list), readonly=True)
-        "id": fields.Integer(readOnly=True),
+
     }
 )
 
