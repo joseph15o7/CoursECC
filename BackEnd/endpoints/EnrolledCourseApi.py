@@ -46,7 +46,7 @@ class EnrolledCoursesResource(Resource):
         enrolled_course_model = find_enrolled_course_by_course_id_and_student_id(course_id, student_id)
         if enrolled_course_model is not None:
             return jsonify({"status": 2})
-            return jsonify({"status": 2})
+
 
         current_user_email = get_jwt_identity()
         actual_user = find_user_by_email(current_user_email)
