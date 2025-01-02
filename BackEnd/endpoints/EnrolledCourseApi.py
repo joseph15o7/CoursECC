@@ -70,14 +70,14 @@ class EnrolledCourseResource(Resource):
     @enrolled_course_ns.marshal_with(enrolled_course_model_request)
     @jwt_required()
     def get(self, course_id, user_id):
-        """Get a enrolled course by id"""
+        """Get enrolled course by id"""
         enrolled_course_model = find_enrolled_course_by_course_id_and_student_id(course_id, user_id)
         return enrolled_course_model
 
     @enrolled_course_ns.marshal_with(enrolled_course_model_request)
     @jwt_required()
     def put(self, id):
-        """Update a enrolled course by id"""
+        """Update enrolled course by id"""
         # course_to_update = find_course_by_id(id)
         # data = request.get_json()
         # update_course(course_to_update, data)
@@ -85,7 +85,7 @@ class EnrolledCourseResource(Resource):
 
     @jwt_required()
     def delete(self, course_id, user_id):
-        """Delete a enrolled course by id"""
+        """Delete enrolled course by id"""
         enrolled_course_to_delete = find_enrolled_course_by_course_id_and_student_id(course_id, user_id)
         if enrolled_course_to_delete:
             delete_enrolled_course(enrolled_course_to_delete)
