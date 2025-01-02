@@ -58,4 +58,3 @@ class TopicResource(Resource):
             delete_topic(topic_to_delete)
             return {"status": 1}
         return {"status": 0}
-end
