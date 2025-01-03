@@ -80,4 +80,3 @@ class TutorialsDurationResource(Resource):
         """Get a duration of tutorials by course id"""
         hours = get_duration_of_tutorials_by_course_id(id)
         return hours
-        return {"status": 0}
