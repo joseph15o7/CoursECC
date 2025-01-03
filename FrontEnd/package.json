@@ -10,7 +10,6 @@
   "bugs": {
     "url": "https://github.com/joseph15o7/CoursECC/issues"
   },
-  "homepage": "https://github.com/joseph15o7/CoursECC#readme",
   "description": "A platform for hosting and managing online courses for ECC",
   "dependencies": {
     "@hookform/error-message": "^2.0.1",
