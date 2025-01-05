@@ -2,8 +2,6 @@
 
 **CoursEcc** is a student-focused platform designed to facilitate learning and engagement in programming and other courses. The platform provides an intuitive interface and a range of features to help students explore, learn, and interact seamlessly.
 
-# ECC-e-learning platform 👨‍💻
-Flask + React web application that allows you to add courses and participate in them 🎓👨‍🎓
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -12,6 +10,14 @@ Flask + React web application that allows you to add courses and participate in 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+## Features ⭐
+
+- Registration, logging in and logging out
+- Editing profile
+- Adding programming courses with lessons
+- Enrollment in other courses
+- Viewing profiles of other users
+- Watching video lessons
 
 
 ## API Testing with Postman ✅
@@ -27,18 +33,6 @@ All API endpoint tests were conducted by **Zaynab Raounak** using [Postman], a p
 - **Profile Display (`GET /users/<id>`)**: Tested retrieval of user data for different profiles.
 
 The tests conducted by **Zaynab Raounak** confirmed that the API responds correctly in various use cases (success, validation errors, insufficient permissions). These tests helped identify and resolve several areas for improvement.
-
-
-
-## Features ⭐
-
-- Registration, logging in and logging out
-- Editing profile
-- Adding programming courses with lessons
-- Enrollment in other courses
-- Viewing profiles of other users
-- Watching video lessons
-
 
 
 
