@@ -22,7 +22,7 @@ Flask + React web application that allows you to add courses and participate in 
 ## Backend Setup 🚀
 
 ```bash
-  $ cd backend
+  $ cd BackEnd
 ```
 
 Install requirements:
@@ -55,7 +55,7 @@ Use node JS version 16-18
 
 Start the React frontend:
 ```bash
-  $ cd client
+  $ cd FrontEnd
 ```
 ```bash
   $ npm install
