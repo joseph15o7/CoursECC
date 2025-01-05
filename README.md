@@ -1,4 +1,4 @@
-# e-learning-ECC-platform 👨‍💻
+# ECC-e-learning platform 👨‍💻
 Flask + React web application that allows you to add courses and participate in them 🎓👨‍🎓
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
