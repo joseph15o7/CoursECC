@@ -1,3 +1,5 @@
+
+
 # ECC-e-learning platform 👨‍💻
 Flask + React web application that allows you to add courses and participate in them 🎓👨‍🎓
 
@@ -16,6 +18,20 @@ Flask + React web application that allows you to add courses and participate in 
 - Enrollment in other courses
 - Viewing profiles of other users
 - Watching video lessons
+## Tests API avec Postman ✅
+
+Tous les tests des endpoints de l'API ont été réalisés par **Zaynab Raounak** à l'aide de [Postman], un outil performant pour tester et explorer les API REST.  
+
+### Détails des tests effectués :
+
+- **Création d'utilisateur (`POST /register`)** : Zaynab Raounak a vérifié l'enregistrement des utilisateurs avec des données valides et invalides.
+- **Connexion (`POST /login`)** : Tests des scénarios de connexion, incluant des identifiants corrects et erronés.
+- **Ajout de cours (`POST /courses`)** : Validation des autorisations et des formats de données envoyées.
+- **Inscription à un cours (`POST /enroll`)** : Vérification du bon fonctionnement des inscriptions.
+- **Affichage des profils (`GET /users/<id>`)** : Tests de récupération des données utilisateur pour différents profils.
+
+
+Les tests réalisés par **Zaynab Raounak** ont confirmé que l'API répond correctement dans divers cas d'utilisation (succès, erreurs de validation, permissions insuffisantes). Ces tests ont permis d'identifier et de résoudre plusieurs points d'amélioration.
 
 
 
